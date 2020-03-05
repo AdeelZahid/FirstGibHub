@@ -1,1 +1,12 @@
-mylogs.log
+# All mylogs.log files not tracked 
+mylogs.log 
+
+# /mylogs.log >> only tracked same level 
+/mylogs.log
+
+# *.log >> All .log extension files tracked 
+.log
+
+# /foldername .. >> folder and inside items not tracked 
+/ddd
+
